@@ -75,18 +75,6 @@ CMAKE_BINARY_DIR = "C:\Users\catar\Desktop\MIEIC 2\2Semester\CAL\CAL-Quickstart\
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -99,6 +87,18 @@ install/fast: preinstall/fast
 	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -110,17 +110,15 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -133,15 +131,17 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -201,6 +201,19 @@ TP2: cmake_check_build_system
 TP2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/build
 .PHONY : TP2/fast
+
+#=============================================================================
+# Target rules for targets named TP3
+
+# Build rule for target.
+TP3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TP3
+.PHONY : TP3
+
+# fast build rule for target.
+TP3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/build
+.PHONY : TP3/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -551,6 +564,60 @@ TP2/ex4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/TP2/ex4.cpp.s
 .PHONY : TP2/ex4.cpp.s
 
+TP3/ex1.obj: TP3/ex1.cpp.obj
+
+.PHONY : TP3/ex1.obj
+
+# target to build an object file
+TP3/ex1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/ex1.cpp.obj
+.PHONY : TP3/ex1.cpp.obj
+
+TP3/ex1.i: TP3/ex1.cpp.i
+
+.PHONY : TP3/ex1.i
+
+# target to preprocess a source file
+TP3/ex1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/ex1.cpp.i
+.PHONY : TP3/ex1.cpp.i
+
+TP3/ex1.s: TP3/ex1.cpp.s
+
+.PHONY : TP3/ex1.s
+
+# target to generate assembly for a file
+TP3/ex1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/ex1.cpp.s
+.PHONY : TP3/ex1.cpp.s
+
+TP3/ex2.obj: TP3/ex2.cpp.obj
+
+.PHONY : TP3/ex2.obj
+
+# target to build an object file
+TP3/ex2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/ex2.cpp.obj
+.PHONY : TP3/ex2.cpp.obj
+
+TP3/ex2.i: TP3/ex2.cpp.i
+
+.PHONY : TP3/ex2.i
+
+# target to preprocess a source file
+TP3/ex2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/ex2.cpp.i
+.PHONY : TP3/ex2.cpp.i
+
+TP3/ex2.s: TP3/ex2.cpp.s
+
+.PHONY : TP3/ex2.s
+
+# target to generate assembly for a file
+TP3/ex2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/TP3/ex2.cpp.s
+.PHONY : TP3/ex2.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -559,6 +626,7 @@ main.obj: main.cpp.obj
 main.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/main.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -569,6 +637,7 @@ main.i: main.cpp.i
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/main.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -579,6 +648,7 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP1.dir\build.make CMakeFiles/TP1.dir/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP2.dir\build.make CMakeFiles/TP2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TP3.dir\build.make CMakeFiles/TP3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -595,6 +665,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... TP1
 	@echo ... TP2
+	@echo ... TP3
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
@@ -632,6 +703,12 @@ help:
 	@echo ... TP2/ex4.obj
 	@echo ... TP2/ex4.i
 	@echo ... TP2/ex4.s
+	@echo ... TP3/ex1.obj
+	@echo ... TP3/ex1.i
+	@echo ... TP3/ex1.s
+	@echo ... TP3/ex2.obj
+	@echo ... TP3/ex2.i
+	@echo ... TP3/ex2.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

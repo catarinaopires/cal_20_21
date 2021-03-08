@@ -17,21 +17,21 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/local">
-				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="install">
 				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -97,16 +97,6 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/strip">
-				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="TP2">
 				<Option output="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/TP2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
@@ -157,6 +147,66 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3">
+				<Option output="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/TP3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googletest/include"/>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googletest"/>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googlemock/include"/>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googlemock"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP3"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TP3/fast">
+				<Option output="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/TP3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googletest/include"/>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googletest"/>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googlemock/include"/>
+					<Add directory="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googlemock"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 TP3/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
 				<Option type="4"/>
@@ -167,11 +217,11 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="list_install_components">
+			<Target title="install/strip">
 				<Option working_dir="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -403,6 +453,12 @@
 		<Unit filename="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/TP2/ex4.cpp">
 			<Option target="TP2"/>
 		</Unit>
+		<Unit filename="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/TP3/ex1.cpp">
+			<Option target="TP3"/>
+		</Unit>
+		<Unit filename="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/TP3/ex2.cpp">
+			<Option target="TP3"/>
+		</Unit>
 		<Unit filename="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
@@ -418,6 +474,7 @@
 		<Unit filename="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/main.cpp">
 			<Option target="TP1"/>
 			<Option target="TP2"/>
+			<Option target="TP3"/>
 		</Unit>
 		<Unit filename="C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
