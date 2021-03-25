@@ -1,0 +1,3 @@
+C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/Extra Exercises/backtracking/cmake-build-debug/CMakeFiles/backtracking.dir
+C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/Extra Exercises/backtracking/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/Extra Exercises/backtracking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
