@@ -83,3 +83,15 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
   file(TOUCH_NOCREATE "C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()
+
+# TP7_FILES at CMakeLists.txt:15 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/TP7/*.cpp")
+set(OLD_GLOB
+  "C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/TP7/TestAux.cpp"
+  "C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/TP7/ex1.cpp"
+  "C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/TP7/ex2.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
