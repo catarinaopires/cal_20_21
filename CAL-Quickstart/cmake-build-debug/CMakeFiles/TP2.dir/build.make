@@ -163,10 +163,10 @@ TP2.exe: CMakeFiles/TP2.dir/TP2/ex2.cpp.obj
 TP2.exe: CMakeFiles/TP2.dir/TP2/ex3.cpp.obj
 TP2.exe: CMakeFiles/TP2.dir/TP2/ex4.cpp.obj
 TP2.exe: CMakeFiles/TP2.dir/build.make
-TP2.exe: lib/libgtest_maind.a
-TP2.exe: lib/libgmock_maind.a
-TP2.exe: lib/libgmockd.a
-TP2.exe: lib/libgtestd.a
+TP2.exe: lib/libgtest_maind.dll.a
+TP2.exe: lib/libgmock_maind.dll.a
+TP2.exe: lib/libgmockd.dll.a
+TP2.exe: lib/libgtestd.dll.a
 TP2.exe: CMakeFiles/TP2.dir/linklibs.rsp
 TP2.exe: CMakeFiles/TP2.dir/objects1.rsp
 TP2.exe: CMakeFiles/TP2.dir/link.txt

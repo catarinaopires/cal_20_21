@@ -163,10 +163,10 @@ TP5.exe: CMakeFiles/TP5.dir/TP5/ex1.cpp.obj
 TP5.exe: CMakeFiles/TP5.dir/TP5/ex2.cpp.obj
 TP5.exe: CMakeFiles/TP5.dir/TP5/ex3.cpp.obj
 TP5.exe: CMakeFiles/TP5.dir/build.make
-TP5.exe: lib/libgtest_maind.a
-TP5.exe: lib/libgmock_maind.a
-TP5.exe: lib/libgmockd.a
-TP5.exe: lib/libgtestd.a
+TP5.exe: lib/libgtest_maind.dll.a
+TP5.exe: lib/libgmock_maind.dll.a
+TP5.exe: lib/libgmockd.dll.a
+TP5.exe: lib/libgtestd.dll.a
 TP5.exe: CMakeFiles/TP5.dir/linklibs.rsp
 TP5.exe: CMakeFiles/TP5.dir/objects1.rsp
 TP5.exe: CMakeFiles/TP5.dir/link.txt

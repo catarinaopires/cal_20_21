@@ -528,3 +528,83 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_b8e83/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b8e83.dir\build.make CMakeFiles/cmTC_b8e83.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8e83.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_b8e83.dir\CheckIncludeFile.c.obj   -c "C:\Users\catar\Desktop\MIEIC 2\2Semester\CAL\CAL-Quickstart\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_b8e83.exe
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b8e83.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b8e83.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_b8e83.dir/objects.a @CMakeFiles\cmTC_b8e83.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_b8e83.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b8e83.exe -Wl,--out-implib,libcmTC_b8e83.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b8e83.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_127ae/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_127ae.dir\build.make CMakeFiles/cmTC_127ae.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_127ae.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_127ae.dir\CheckIncludeFile.c.obj   -c "C:\Users\catar\Desktop\MIEIC 2\2Semester\CAL\CAL-Quickstart\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_127ae.exe
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_127ae.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_127ae.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_127ae.dir/objects.a @CMakeFiles\cmTC_127ae.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_127ae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_127ae.exe -Wl,--out-implib,libcmTC_127ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_127ae.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_ff756/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ff756.dir\build.make CMakeFiles/cmTC_ff756.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff756.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_ff756.dir\CheckIncludeFile.c.obj   -c "C:\Users\catar\Desktop\MIEIC 2\2Semester\CAL\CAL-Quickstart\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_ff756.exe
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ff756.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ff756.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_ff756.dir/objects.a @CMakeFiles\cmTC_ff756.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_ff756.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ff756.exe -Wl,--out-implib,libcmTC_ff756.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ff756.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of void* passed with the following output:
+Change Dir: C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_1cfb8/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1cfb8.dir\build.make CMakeFiles/cmTC_1cfb8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cfb8.dir/SIZEOF_VOID_PTR.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_1cfb8.dir\SIZEOF_VOID_PTR.c.obj   -c "C:\Users\catar\Desktop\MIEIC 2\2Semester\CAL\CAL-Quickstart\cmake-build-debug\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c"
+Linking C executable cmTC_1cfb8.exe
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1cfb8.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1cfb8.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_1cfb8.dir/objects.a @CMakeFiles\cmTC_1cfb8.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_1cfb8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1cfb8.exe -Wl,--out-implib,libcmTC_1cfb8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1cfb8.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_3ad04/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3ad04.dir\build.make CMakeFiles/cmTC_3ad04.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ad04.dir/CheckIncludeFile.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_3ad04.dir\CheckIncludeFile.c.obj   -c "C:\Users\catar\Desktop\MIEIC 2\2Semester\CAL\CAL-Quickstart\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_3ad04.exe
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3ad04.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3ad04.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_3ad04.dir/objects.a @CMakeFiles\cmTC_3ad04.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_3ad04.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3ad04.exe -Wl,--out-implib,libcmTC_3ad04.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3ad04.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/catar/Desktop/MIEIC 2/2Semester/CAL/CAL-Quickstart/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

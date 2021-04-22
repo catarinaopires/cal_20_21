@@ -195,10 +195,10 @@ TP4.exe: CMakeFiles/TP4.dir/TP4/ex4.cpp.obj
 TP4.exe: CMakeFiles/TP4.dir/TP4/ex5.cpp.obj
 TP4.exe: CMakeFiles/TP4.dir/TP4/ex6.cpp.obj
 TP4.exe: CMakeFiles/TP4.dir/build.make
-TP4.exe: lib/libgtest_maind.a
-TP4.exe: lib/libgmock_maind.a
-TP4.exe: lib/libgmockd.a
-TP4.exe: lib/libgtestd.a
+TP4.exe: lib/libgtest_maind.dll.a
+TP4.exe: lib/libgmock_maind.dll.a
+TP4.exe: lib/libgmockd.dll.a
+TP4.exe: lib/libgtestd.dll.a
 TP4.exe: CMakeFiles/TP4.dir/linklibs.rsp
 TP4.exe: CMakeFiles/TP4.dir/objects1.rsp
 TP4.exe: CMakeFiles/TP4.dir/link.txt

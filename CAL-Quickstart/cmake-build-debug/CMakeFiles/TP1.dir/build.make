@@ -211,10 +211,10 @@ TP1.exe: CMakeFiles/TP1.dir/TP1/ex5.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/TP1/ex6.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/TP1/ex7.cpp.obj
 TP1.exe: CMakeFiles/TP1.dir/build.make
-TP1.exe: lib/libgtest_maind.a
-TP1.exe: lib/libgmock_maind.a
-TP1.exe: lib/libgmockd.a
-TP1.exe: lib/libgtestd.a
+TP1.exe: lib/libgtest_maind.dll.a
+TP1.exe: lib/libgmock_maind.dll.a
+TP1.exe: lib/libgmockd.dll.a
+TP1.exe: lib/libgtestd.dll.a
 TP1.exe: CMakeFiles/TP1.dir/linklibs.rsp
 TP1.exe: CMakeFiles/TP1.dir/objects1.rsp
 TP1.exe: CMakeFiles/TP1.dir/link.txt

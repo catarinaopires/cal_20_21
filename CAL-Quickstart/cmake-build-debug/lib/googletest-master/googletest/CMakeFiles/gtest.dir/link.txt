@@ -1,2 +1,3 @@
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe qc ..\..\libgtestd.a  CMakeFiles/gtest.dir/src/gtest-all.cc.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ranlib.exe ..\..\libgtestd.a
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\gtest.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\gtest.dir/objects.a @CMakeFiles\gtest.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  -g  -shared -o ..\..\..\bin\libgtestd.dll -Wl,--out-implib,..\..\libgtestd.dll.a -Wl,--major-image-version,1,--minor-image-version,10 -Wl,--whole-archive CMakeFiles\gtest.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\gtest.dir\linklibs.rsp

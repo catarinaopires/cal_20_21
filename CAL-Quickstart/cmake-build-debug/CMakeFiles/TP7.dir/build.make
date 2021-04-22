@@ -147,10 +147,10 @@ TP7.exe: CMakeFiles/TP7.dir/TP7/TestAux.cpp.obj
 TP7.exe: CMakeFiles/TP7.dir/TP7/ex1.cpp.obj
 TP7.exe: CMakeFiles/TP7.dir/TP7/ex2.cpp.obj
 TP7.exe: CMakeFiles/TP7.dir/build.make
-TP7.exe: lib/libgtest_maind.a
-TP7.exe: lib/libgmock_maind.a
-TP7.exe: lib/libgmockd.a
-TP7.exe: lib/libgtestd.a
+TP7.exe: lib/libgtest_maind.dll.a
+TP7.exe: lib/libgmock_maind.dll.a
+TP7.exe: lib/libgmockd.dll.a
+TP7.exe: lib/libgtestd.dll.a
 TP7.exe: CMakeFiles/TP7.dir/linklibs.rsp
 TP7.exe: CMakeFiles/TP7.dir/objects1.rsp
 TP7.exe: CMakeFiles/TP7.dir/link.txt

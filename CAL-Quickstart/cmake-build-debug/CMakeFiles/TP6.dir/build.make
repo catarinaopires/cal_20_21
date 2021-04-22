@@ -179,10 +179,10 @@ TP6.exe: CMakeFiles/TP6.dir/TP6/ex2.cpp.obj
 TP6.exe: CMakeFiles/TP6.dir/TP6/ex3.cpp.obj
 TP6.exe: CMakeFiles/TP6.dir/TP6/ex4.cpp.obj
 TP6.exe: CMakeFiles/TP6.dir/build.make
-TP6.exe: lib/libgtest_maind.a
-TP6.exe: lib/libgmock_maind.a
-TP6.exe: lib/libgmockd.a
-TP6.exe: lib/libgtestd.a
+TP6.exe: lib/libgtest_maind.dll.a
+TP6.exe: lib/libgmock_maind.dll.a
+TP6.exe: lib/libgmockd.dll.a
+TP6.exe: lib/libgtestd.dll.a
 TP6.exe: CMakeFiles/TP6.dir/linklibs.rsp
 TP6.exe: CMakeFiles/TP6.dir/objects1.rsp
 TP6.exe: CMakeFiles/TP6.dir/link.txt

@@ -131,10 +131,10 @@ TP3.exe: CMakeFiles/TP3.dir/main.cpp.obj
 TP3.exe: CMakeFiles/TP3.dir/TP3/ex1.cpp.obj
 TP3.exe: CMakeFiles/TP3.dir/TP3/ex2.cpp.obj
 TP3.exe: CMakeFiles/TP3.dir/build.make
-TP3.exe: lib/libgtest_maind.a
-TP3.exe: lib/libgmock_maind.a
-TP3.exe: lib/libgmockd.a
-TP3.exe: lib/libgtestd.a
+TP3.exe: lib/libgtest_maind.dll.a
+TP3.exe: lib/libgmock_maind.dll.a
+TP3.exe: lib/libgmockd.dll.a
+TP3.exe: lib/libgtestd.dll.a
 TP3.exe: CMakeFiles/TP3.dir/linklibs.rsp
 TP3.exe: CMakeFiles/TP3.dir/objects1.rsp
 TP3.exe: CMakeFiles/TP3.dir/link.txt
